@@ -59,7 +59,6 @@ Métodos implementados:
 ## ▶️ Como Executar o Projeto
 
 ### 1. Instalar dependências (caso existam)
-```bash
 npm install
 
 ### 2. Compilar o TypeScript
@@ -67,6 +66,8 @@ npx tsc
 
 ### 3. Executar o arquivo de testes
 node dist/index.js
+
+---
 
 ## 🧪 Exemplo de Uso (index.ts)
 
