@@ -70,17 +70,19 @@ node dist/index.js
 ---
 
 ## 🧪 Exemplo de Uso (index.ts)
-
+```ts
 import { FilaComPrioridade } from "./FilaComPrioridade";
 
 const fila = new FilaComPrioridade(10);
 
-fila.enqueue(100, 5); // muito alta
-fila.enqueue(20, 2);  // baixa
-fila.enqueue(50, 3);  // normal
-fila.enqueue(200, 5); // muito alta
+fila.enqueue(100, 5);// muito alta
+fila.enqueue(20, 2);// baixa
+fila.enqueue(50, 3);// normal
+fila.enqueue(200, 5);// muito alta
 
 console.log("Próximo:", fila.verProximo());
 console.log("Removido:", fila.remover());
+
 console.log("Tamanho:", fila.tamanho());
 console.log("Fila vazia?", fila.estaVazio());
+```
